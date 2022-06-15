@@ -76,7 +76,7 @@ function App() {
         }}/>
       </div>
       <div className='goblin-filter quarter'>
-        Filter Goblins
+        Filter Your Goblins
         {/* note that handleFilterGoblins is defined upstairs. This is where the allGoblins array gets filtered */}
         <input onChange={(e) => handleFilterGoblins(e.target.value)} />
       </div>
